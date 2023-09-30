@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoundCaptureWeb</title>
+
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <div class="save-input-container">
+   
+  </div>
+  <h1>Aplikacja AudioRec</h1>
+  <div class="button-container" >
+    <button class="button" onclick="playAllRecordings()">Odtwórz wszystkie</button>
+    <button class="button" onclick="downloadAudio()">Pobierz</button>
+    <button class="button" onclick="addAudio()">Dodaj</button>
+    <button class="button" id="saveProject">Zapisz Projekt</button>
+    <button class="button" id="loadProject">Wczytaj Ostatni Projekt</button>
+    <input type="file" id="fileInput" accept="audio/*">
+    <button class="button" onclick="uploadAudio()">Upload</button>
+    
+  </div>
+  <div id="main-container">
+    <div id="audio-container">
+    </div>
+    <div id="projects">
+    </div>
+  </div>
+  <div id="audioContainer">
+    
+    <div class="track-container">
+    <button class="button" id="startRecording">Nagrywanie</button>
+    <button class="button" id="stopRecording" disabled>Zakończ</button>
+    <audio class="audio-player" id="audioPlayer" controls></audio>
+    <button class="button" onclick="removeAudio(this.parentElement)">Usuń</button>
+    <button class="button" class="downloadButton" onclick="downloadTrack('audioPlayer')">Pobierz ścieżkę</button>
+    </div>
+  </div> 
+  <script src="scripts.js"></script>
+  <script src="/script.js"></script>
+  <script src="file.js"></script>
+</body>
+</html>

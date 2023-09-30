@@ -1,0 +1,143 @@
+h1 {
+  text-align: center;
+  font-size: 5em; 
+  margin-bottom: 20px; 
+  font-weight: bold; 
+  color: whitesmoke; 
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5); 
+}
+
+
+.button {
+  background-color: #ff5500;
+  color: #fff;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 2px; 
+}
+
+.button:hover {
+  background-color: #e54400;
+}
+
+.button-container .button {
+  background-color: #008080; 
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 30px; 
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.container {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.button {
+  background-color: #ff5500;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #e54400;
+}
+
+.audio-player {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.audio-list {
+  list-style: none;
+  padding: 0;
+}
+
+.audio-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.audio-list-item button {
+  background-color: #ff5500;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.audio-list-item button:hover {
+  background-color: #e54400;
+}
+
+.dark-mode-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.audio-player {
+  width: 100%;
+  max-width: 500px;
+  margin: 3 auto;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: px;
+  padding: 10px;
+}
+
+.audio-player audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.audio-player button {
+  background-color: #ff5500;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.audio-player button:hover {
+  background-color: #41e50069;
+}
+
+.track-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 5px;
+  background-color: #6d6e6d;
+  border: 1px solid #6d6e6d;
+  border-radius: 5px;
+}
